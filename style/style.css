@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Lato-Light;
+    src: url(Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bangers-Regular;
+    src: url(Bangers-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Lato-Regular;
+}
+
+p, .spanLikeP{
+    font-family: Lato-Light;
+    font-size: 1.2rem;
+}
+
+.row{
+    margin: 0;
+}
+
+.col{
+    margin: 0;
+}
+
+.modal{
+    background-color: rgba(220, 53, 69, 0.7);
+}
+
+.modal-backdrop {
+    background-color: transparent;
+ }
+
+.h-200{
+    height: 200px!important;
+}
+
+#home{
+    padding:150px 0 100px 0;
+}
+
+.smart-break{
+    font-size: 1.75rem;
+    color: #dc3545;
+    font-weight: 900;
+}
+
+.smart-shadow{
+    box-shadow: 4px 6px #dc3545;
+}
+
+.smart-nav{
+    font-size: 1.1rem;
+    position: relative;
+    width: 180px;
+    margin-top: 3rem!important;
+}
+
+.smart-nav-bootom{
+    position: fixed;
+    top: 20px;
+    margin-top: 0rem!important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.active{
+    color: black;
+    transition: 0.1s;
+    border: solid 1px #dc3545;
+    box-shadow: 4px 6px #dc3545;
+}
+
+.text-header{
+    margin-left: 15px;
+    font-family: Bangers-Regular, cursive;
+    letter-spacing: 2px;
+    font-size: 3.5rem;
+    color: #dc3545;
+}
+
+.text-header-main{
+    margin-left: 15px;
+    font-family: Bangers-Regular, cursive;
+    letter-spacing: 4px;
+    font-size: 6.5rem;
+}
+
+.hr-smart{
+    margin-left: 15px;
+    border-bottom: 8px dashed #dc3545;
+}
+
+#contact .form-control{
+    border: solid 3px #dc3545;
+    box-shadow: none;
+}
+
+.section-smart{
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .section-smart{
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .section-smart{
+        margin-bottom: 20px;
+    }
+}
+
